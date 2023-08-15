@@ -412,10 +412,12 @@ h6,
 
 .agendas a{
   color: black;
+  line-height: 40px;
 }
 
 .agendas a:hover{
   color: grey;
+  text-decoration: underline;
 }
 
 .agendas h2{
@@ -437,15 +439,41 @@ h6,
 
 .minutes a{
   color: black;
+  line-height: 40px;
 }
 
 .minutes a:hover{
   color: grey;
+  text-decoration: underline;
 }
 
 .minutes h2{
   margin-top: 50px;
 }
+
+/* Public Hearings */
+
+.public-hearings {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.public-hearings h1{
+  font-size: 50px;
+}
+
+.public-hearings a {
+  color: black;
+  line-height: 50px;
+}
+
+.public-hearings a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+/* Public Hearings */
+
 
 /*--------------------------------------------------------------
 # Contact Us

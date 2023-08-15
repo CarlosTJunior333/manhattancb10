@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #1f3548;
+  color: #444;
 }
 
 a {
@@ -24,7 +24,6 @@ h5,
 h6,
 .font-primary {
   font-family: "Raleway", sans-serif;
-  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -369,149 +368,290 @@ h6,
 }
 
 
-/* Calender */
+/* RESOURCES PAGE */
 
-.calender {
-  text-align: center;
+.resources {
+  background-image: url('https://www.bridgesnyc.com/wp-content/uploads/2010/03/005macombsdam01.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
-.calender h1 {
-  font-size: 75px;
-  margin-top: 100px;
+.resources .container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #587187;
+    padding: 40px 50px 40px;
+    width: auto;
+    color: white;
 }
 
-.calender iframe {
-  margin-bottom: 100px;
-  margin-top: 50px;
+.resources .container h1 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
 }
 
-/* Calender */
-
-/*--------------------------------------------------------------
-# Contact Us
---------------------------------------------------------------*/
-.contact .info-box {
-  color: #444;
-  text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 20px 0 30px 0;
-  margin-bottom: 30px;
-  width: 100%;
-}
-
-.contact .info-box i {
-  font-size: 32px;
-  color: #428bca;
-  border-radius: 50%;
-  padding: 8px;
-  border: 2px dotted #9eccf4;
-}
-
-.contact .info-box h3 {
-  font-size: 20px;
-  color: #666;
-  font-weight: 700;
-  margin: 10px 0;
-}
-
-.contact .info-box p {
-  padding: 0;
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 30px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
+.resources .container p {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
+.street-namings h1{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-size: 50px;
 }
 
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
+.street-namings p {
+  margin-bottom: 50px;
 }
 
-.contact .php-email-form .loading:before {
-  content: "";
+.street-namings .links {
+  margin-bottom: 100px;
+}
+
+.street-namings a {
+  line-height: 3;
+}
+
+.street-namings a:hover {
+  text-decoration: underline;
+}
+
+/* RESOURCES PAGE */
+
+/* CITY SERVICES PAGE */
+
+.city-services {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5e/New_York_Amsterdam_News_building%2C_2017.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.city-services .container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #587187;
+    padding: 40px 50px 40px;
+    width: auto;
+    color: white;
+}
+
+.city-services .container h1 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+.sections .da-services h1 {
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #587187;
   display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
+  padding: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: white;
 }
 
-.contact .php-email-form .form-group {
-  margin-bottom: 20px;
+.sections .da-services p {
+  margin-bottom: 50px;
+  font-size: 25px;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
+.sections .da-services a {
+  text-decoration: underline;
+  font-size: 25px;
+  display: block;
 }
 
-.contact .php-email-form input::focus,
-.contact .php-email-form textarea::focus {
-  background-color: #428bca;
+.sections .da-services a:hover {
+  text-decoration: none;
 }
 
-.contact .php-email-form input {
-  padding: 10px 15px;
+.sections .empty-space {
+  margin-bottom: 100px;
 }
 
-.contact .php-email-form textarea {
-  padding: 12px 15px;
+/* CITY SERVICES PAGE */
+
+/* OFFICIALS PAGE */
+
+.city-officials {
+  background-image: url('https://untappedcities.com/wp-content/uploads/2018/09/featured-city-hall-nyc-untapped-cities1.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
-.contact .php-email-form button[type=submit] {
-  background: #428bca;
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
+.city-officials .container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #587187;
+    padding: 40px 50px 40px;
+    width: auto;
+    color: white;
 }
 
-.contact .php-email-form button[type=submit]:hover {
-  background: #629fd3;
+.city-officials .container h1 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
 }
 
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 10px; /* Adjust the gap between grid items */
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 850px) { /* Adjust the breakpoint as needed */
+  .grid-container {
+    grid-template-columns: 1fr; /* Single column layout for mobile */
   }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
+
+.the-elected {
+  margin-top: 100px;
+}
+
+.an-official img {
+  margin-bottom: 25px;
+}
+
+.the-elected p {
+  font-size: 25px;
+}
+
+.the-elected a {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.the-elected a:hover {
+  text-decoration: none;
+}
+
+/* OFFICIALS PAGE */
+
+/* GUIDES & ORGANIZATIONS PAGE */
+
+.guides-organizations {
+  background-image: url('https://cdn-img-feed.streeteasy.com/nyc/image/11/426659311.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative; /* Add position relative for positioning children */
+}
+
+.guides-organizations-content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #587187;
+  padding: 40px 50px;
+  color: white;
+}
+
+.guides-organizations-content h1 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  margin: 0; /* Remove default margin to avoid extra spacing */
+}
+
+.stuff h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.stuff a {
+  display: block;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.stuff a:hover {
+  text-decoration: none;
+}
+
+/* GUIDES & ORGANIZATIONS PAGE */
+
+/* EMPLOYMENT PAGE */
+
+.jobs {
+  background-image: url('https://thetournament.com/wp-content/uploads/2022/05/Rucker-Picture-4-e1652901063985.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative; /* Add position relative for positioning children */
+}
+
+.jobs-content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #587187;
+  padding: 40px 50px;
+  color: white;
+}
+
+.jobs-content h1 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  margin: 0; /* Remove default margin to avoid extra spacing */
+}
+
+.the-gif {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 25px;
+}
+
+.opportunities a {
+  text-decoration: underline;
+  line-height: 3;
+}
+
+.opportunities a:hover {
+  text-decoration: none;
+}
+
+.opportunities .empty-space {
+  margin-bottom: 100px;
+}
+
+/* EMPLOYMENT PAGE */
+
+
+
+
+
+
+
+
+
+
+
 
 #footer {
   background: #587187;
