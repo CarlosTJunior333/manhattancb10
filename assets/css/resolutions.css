@@ -367,6 +367,12 @@ h6,
   display: block;
 }
 
+.second-logo {
+  margin-right: 15px; /* Add appropriate spacing */
+  width: 40px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+}
+
 
 /* RESOLUTIONS PAGE */
 

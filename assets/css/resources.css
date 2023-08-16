@@ -26,6 +26,13 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 
+.second-logo {
+  margin-right: 15px; /* Add appropriate spacing */
+  width: 40px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
