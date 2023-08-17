@@ -26,6 +26,12 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 
+.second-logo {
+  margin-right: 15px; /* Add appropriate spacing */
+  width: 40px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -893,6 +899,32 @@ section {
   margin-bottom: 15px;
   color: #1f3548;
 }
+
+/* LINKS */
+
+.links {
+  background-color: rgb(240, 240, 240);
+  margin-top: 100px;
+  padding: 50px;
+}
+
+.links h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.links a {
+  line-height: 50px;
+  color: black;
+}
+
+.links a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+/* LINKS */
 
 /*--------------------------------------------------------------
 # Contact Us

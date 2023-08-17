@@ -26,6 +26,12 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 
+.second-logo {
+  margin-right: 15px; /* Add appropriate spacing */
+  width: 40px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -413,9 +419,13 @@ h6,
   margin-bottom: 25px;
 }
 
+.info .row .col-sm-4 a:hover{
+  text-decoration: underline;
+}
+
 /* INFO */ 
 
-.ArtsNCulture {
+.the-problems {
   margin-top: 100px;
   margin-bottom: 100px;
   background-color: rgba(0, 0, 0, 0.06);
@@ -423,17 +433,24 @@ h6,
   padding: 50px;
 }
 
-.ArtsNCulture .container .title {
+.the-problems .container .title {
   text-align: center;
   font-size: 50px;
 }
 
-.ArtsNCulture h1 {
+.the-problems h1 {
   font-size: 25px;
 }
 
-.ArtsNCulture .col-sm-8 {
+.the-problems .col-sm-8 {
   margin-top: 50px;
+}
+
+.the-problems .btn {
+  width: auto;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: auto;
 }
 
 /*--------------------------------------------------------------

@@ -236,3 +236,207 @@
   new PureCounter();
 
 })()
+
+const section1 = document.getElementById('section1');
+const section2 = document.getElementById('section2');
+const section3 = document.getElementById('section3');
+const section4 = document.getElementById('section4');
+const section5 = document.getElementById('section5');
+const section6 = document.getElementById('section6');
+const section7 = document.getElementById('section7');
+const section8 = document.getElementById('section8');
+const section9 = document.getElementById('section9');
+const section10 = document.getElementById('section10');
+const section11 = document.getElementById('section11');
+const link1 = document.getElementById('link1');
+const link2 = document.getElementById('link2');
+const link3 = document.getElementById('link3');
+const link4 = document.getElementById('link4');
+const link5 = document.getElementById('link5');
+const link6 = document.getElementById('link6');
+const link7 = document.getElementById('link7');
+const link8 = document.getElementById('link8');
+const link9 = document.getElementById('link9');
+const link10 = document.getElementById('link10');
+const link11 = document.getElementById('link11');
+
+link1.addEventListener('click', (event) => {
+  event.preventDefault();
+  section1.classList.remove('hidden');
+  section2.classList.add('hidden');
+  section3.classList.add('hidden');
+  section4.classList.add('hidden');
+  section5.classList.add('hidden');
+  section6.classList.add('hidden');
+  section7.classList.add('hidden');
+  section8.classList.add('hidden');
+  section9.classList.add('hidden');
+  section10.classList.add('hidden');
+  section11.classList.add('hidden');
+});
+
+link2.addEventListener('click', (event) => {
+  event.preventDefault();
+  section1.classList.add('hidden');
+  section2.classList.remove('hidden');
+  section3.classList.add('hidden');
+  section4.classList.add('hidden');
+  section5.classList.add('hidden');
+  section6.classList.add('hidden');
+  section7.classList.add('hidden');
+  section8.classList.add('hidden');
+  section9.classList.add('hidden');
+  section10.classList.add('hidden');
+  section11.classList.add('hidden');
+});
+
+link3.addEventListener('click', (event) => {
+  event.preventDefault();
+  section1.classList.add('hidden');
+  section2.classList.add('hidden');
+  section3.classList.remove('hidden');
+  section4.classList.add('hidden');
+  section5.classList.add('hidden');
+  section6.classList.add('hidden');
+  section7.classList.add('hidden');
+  section8.classList.add('hidden');
+  section9.classList.add('hidden');
+  section10.classList.add('hidden');
+  section11.classList.add('hidden');
+});
+
+link4.addEventListener('click', (event) => {
+  event.preventDefault();
+  section1.classList.add('hidden');
+  section2.classList.add('hidden');
+  section3.classList.add('hidden');
+  section4.classList.remove('hidden');
+  section5.classList.add('hidden');
+  section6.classList.add('hidden');
+  section7.classList.add('hidden');
+  section8.classList.add('hidden');
+  section9.classList.add('hidden');
+  section10.classList.add('hidden');
+  section11.classList.add('hidden');
+});
+
+link5.addEventListener('click', (event) => {
+  event.preventDefault();
+  section1.classList.add('hidden');
+  section2.classList.add('hidden');
+  section3.classList.add('hidden');
+  section4.classList.add('hidden');
+  section5.classList.remove('hidden');
+  section6.classList.add('hidden');
+  section7.classList.add('hidden');
+  section8.classList.add('hidden');
+  section9.classList.add('hidden');
+  section10.classList.add('hidden');
+  section11.classList.add('hidden');
+});
+
+link6.addEventListener('click', (event) => {
+  event.preventDefault();
+  section1.classList.add('hidden');
+  section2.classList.add('hidden');
+  section3.classList.add('hidden');
+  section4.classList.add('hidden');
+  section5.classList.add('hidden');
+  section6.classList.remove('hidden');
+  section7.classList.add('hidden');
+  section8.classList.add('hidden');
+  section9.classList.add('hidden');
+  section10.classList.add('hidden');
+  section11.classList.add('hidden');
+});
+
+link7.addEventListener('click', (event) => {
+  event.preventDefault();
+  section1.classList.add('hidden');
+  section2.classList.add('hidden');
+  section3.classList.add('hidden');
+  section4.classList.add('hidden');
+  section5.classList.add('hidden');
+  section6.classList.add('hidden');
+  section7.classList.remove('hidden');
+  section8.classList.add('hidden');
+  section9.classList.add('hidden');
+  section10.classList.add('hidden');
+  section11.classList.add('hidden');
+});
+
+link8.addEventListener('click', (event) => {
+  event.preventDefault();
+  section1.classList.add('hidden');
+  section2.classList.add('hidden');
+  section3.classList.add('hidden');
+  section4.classList.add('hidden');
+  section5.classList.add('hidden');
+  section6.classList.add('hidden');
+  section7.classList.add('hidden');
+  section8.classList.remove('hidden');
+  section9.classList.add('hidden');
+  section10.classList.add('hidden');
+  section11.classList.add('hidden');
+});
+
+link9.addEventListener('click', (event) => {
+  event.preventDefault();
+  section1.classList.add('hidden');
+  section2.classList.add('hidden');
+  section3.classList.add('hidden');
+  section4.classList.add('hidden');
+  section5.classList.add('hidden');
+  section6.classList.add('hidden');
+  section7.classList.add('hidden');
+  section8.classList.add('hidden');
+  section9.classList.remove('hidden');
+  section10.classList.add('hidden');
+  section11.classList.add('hidden');
+});
+
+link10.addEventListener('click', (event) => {
+  event.preventDefault();
+  section1.classList.add('hidden');
+  section2.classList.add('hidden');
+  section3.classList.add('hidden');
+  section4.classList.add('hidden');
+  section5.classList.add('hidden');
+  section6.classList.add('hidden');
+  section7.classList.add('hidden');
+  section8.classList.add('hidden');
+  section9.classList.add('hidden');
+  section10.classList.remove('hidden');
+  section11.classList.add('hidden');
+});
+
+link11.addEventListener('click', (event) => {
+  event.preventDefault();
+  section1.classList.add('hidden');
+  section2.classList.add('hidden');
+  section3.classList.add('hidden');
+  section4.classList.add('hidden');
+  section5.classList.add('hidden');
+  section6.classList.add('hidden');
+  section7.classList.add('hidden');
+  section8.classList.add('hidden');
+  section9.classList.add('hidden');
+  section10.classList.add('hidden');
+  section11.classList.remove('hidden');
+});
+
+const links = document.querySelectorAll('.papers .col-sm-4 a');
+
+  links.forEach(link => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+
+      // Remove active class from all links
+      links.forEach(otherLink => {
+        otherLink.classList.remove('active-link');
+      });
+
+      // Add active class to the clicked link
+      link.classList.add('active-link');
+    });
+  });

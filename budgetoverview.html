@@ -30,24 +30,25 @@
 
 <body>
 
-    <!-- ======= Top Bar ======= -->
-    <section id="topbar" class="d-flex align-items-center">
-      <div class="container d-flex justify-content-center justify-content-md-between">
-        <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">mn10cb@cb.nyc.gov</a>
-          <i class="bi bi-phone-fill phone-icon"></i>212-749-3105
-        </div>
-        <div class="social-links d-none d-md-block">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        </div>
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <!-- Add the second logo here -->
+        <a href="https://www.nyc.gov/" target="_blank"><img src="assets/img/cityofnewyorklogo.png" alt="City of New York Logo" class="second-logo"></a>
+        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">mn10cb@cb.nyc.gov</a>
+        <i class="bi bi-phone-fill phone-icon"></i>212-749-3105
       </div>
-    </section>
+      <div class="social-links d-none d-md-block">
+        <a target="_blank" href="https://twitter.com/mancb10?lang=en" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a target="_blank" href="https://www.facebook.com/ManCB10" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a target="_blank" href="https://www.instagram.com/mancb10/?hl=en" class="instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </section>
 
-
-<!-- ======= Header ======= -->
-<header id="header" class="d-flex align-items-center">
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
       <div class="logo me-auto">
@@ -56,7 +57,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="index.html#about"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="boardmembers.html">Board Members</a></li>
               <li><a href="budgetoverview.html">Budget Overview</a></li>
@@ -64,58 +65,38 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="calender.html">Calender</a></li>
-          <li class="dropdown"><a href="#"><span>Meetings</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="meetings.html"><span>Meetings</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li class="dropdown"><a href="meetings.html"><span>Resolutions</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="resolutions/resolutions.html"><span>Resolutions</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Full Board Resolutions</a></li>
-                  <li><a href="#">State Liquor Authority Resolutions</a></li>
-                  <li><a href="#">Letters of Supoort</a></li>
-                  <li><a href="#">Testomonials</a></li>
+                  <li><a href="resolutions/fullboard.html">Full Board Resolutions</a></li>
+                  <li><a href="resolutions/stateliquor.html">State Liquor Authority Resolutions</a></li>
+                  <li><a href="resolutions/lettersofsupport.html">Letters of Supoort</a></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li class="dropdown"><a href="committees/committees.html"><span>Committees</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a href="committees.html"><span>Committees</span></a>
+          </li>
+          <li class="dropdown"><a href="resources/resources.html"><span>Resources</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Arts & Culture</a></li>
-              <li><a href="#">Economic Development Technology & Communications</a></li>
-              <li><a href="#">Education, Youth, & Libraries</a></li>
-              <li><a href="#">Health & Human Services</a></li>
-              <li><a href="#">Housing</a></li>
-              <li><a href="#">Land Use</a></li>
-              <li><a href="#">Parks & Recreation</a></li>
-              <li><a href="#">Public Safety</a></li>
-              <li><a href="#">Transportation, Historic Preservation & Landmarks</a></li>
+              <li><a href="resources/cityservices.html">City Services</a></li>
+              <li><a href="resources/officials.html">Elected Officials</a></li>
+              <li><a href="resources/guidesNjobs.html">Guides & Organizations</a></li>
+              <li><a href="resources/jobopportunities.html">Employment Opportunities</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="applications/applications.html"><span>Applications</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">City Services</a></li>
-              <li><a href="#">Elected Officials</a></li>
-              <li><a href="#">Community Organizations</a></li>
-              <li><a href="#">Resources Guides</a></li>
-              <li><a href="#">Employment Opportunities</a></li>
+              <li><a href="applications/liquorlicense.html">Liquor License Applications</a></li>
+              <li><a href="applications/landmarks.html">Landmarks Policies & Procedures</a></li>
+              <li><a href="applications/sidewalkcafe.html">Sidewalk Café Applications </a></li>
+              <li><a href="applications/streetactivity.html">Street Activity Permits</a></li>
+              <li><a href="applications/conaming.html">Street Co-Naming Application</a></li>
+              <li><a href="applications/ulurp.html">ULURP Procedure</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Applications</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Community Services Award</a></li>
-              <li><a href="#">Liquor License Applications</a></li>
-              <li><a href="#">Landmarks Policies & Procedures</a></li>
-              <li><a href="#">Sidewalk Café Applications </a></li>
-              <li><a href="#">Street Activity Permits</a></li>
-              <li><a href="#">Street Co-Naming Application</a></li>
-              <li><a href="#">ULURP Procedure</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Contact</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#complaint">Submit a Complaint</a></li>
-              <li><a href="#">Subscribe to Eblast</a></li>
-              <li><a href="#">Community-Based Organization Contact Information</a></li>
-            </ul>
-          </li>
+          <li><a href="contact.html"><span>Contact</span></a>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -157,61 +138,61 @@
 
 <!-- ======= Footer ======= -->
 <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>Manhattan Community Board 10</h3>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.nyc.gov/nyc-resources/agencies.page">Directory of City Agencies</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://a858-nycnotify.nyc.gov/notifynyc/">Notify NYC</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.nyc.gov/connect/mobile-applications.page">NYC Mobile Apps</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.nyc.gov/home/contact-us.page">Contact NYC Government</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Resources</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.nyc.gov/connect/social-media.page">Stay Connected</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.nyc.gov/nyc-resources/nyc-maps.page">Maps</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.nyc.gov/nyc-resources/resident-toolkit.page">Resident Toolkit</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.nyc.gov/home/privacy-policy.page">Privacy Policy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.nyc.gov/home/terms-of-use.page">Terms of Use</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Subscribe to Eblast</h4>
-            <p>MCB10 sends out eblasts to the Community in an effort to keep the community informed of news, public hearings, announcements, upcoming activities, employment and training opportunities, health and wellness updates, new housing in the community, and special events.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
+  <div class="footer-top">
     <div class="container">
-      <div class="copyright">
-        &copy; <strong><span>2023 The City of New York</span></strong>
-      </div>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      <div class="row">
+  
+        <div class="col-lg-3 col-md-6 footer-info">
+          <h3>Manhattan Community Board 10</h3>
+          <div class="social-links mt-3">
+            <a target="_blank" href="https://twitter.com/mancb10?lang=en" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a target="_blank" href="https://www.facebook.com/ManCB10" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a target="_blank" href="https://www.instagram.com/mancb10/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
+          </div>
+        </div>
+  
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Top Pages</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.nyc.gov/nyc-resources/agencies.page">Directory of City Agencies</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://a858-nycnotify.nyc.gov/notifynyc/">Notify NYC</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.nyc.gov/connect/mobile-applications.page">NYC Mobile Apps</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.nyc.gov/home/contact-us.page">Contact NYC Government</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.nyc.gov/connect/social-media.page">Stay Connected</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.nyc.gov/nyc-resources/nyc-maps.page">Maps</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.nyc.gov/nyc-resources/resident-toolkit.page">Resident Toolkit</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.nyc.gov/home/privacy-policy.page">Privacy Policy</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.nyc.gov/home/terms-of-use.page">Terms of Use</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Subscribe to Eblast</h4>
+          <p>MCB10 sends out eblasts to the Community in an effort to keep the community informed of news, public hearings, announcements, upcoming activities, employment and training opportunities, health and wellness updates, new housing in the community, and special events.</p>
+          <form action="" method="post">
+            <input type="email" name="email"><input type="submit" value="Subscribe">
+          </form>
+  
+        </div>
+  
       </div>
     </div>
+  </div>
+  
+  <div class="container">
+    <div class="copyright">
+      &copy; <strong><span>2023 The City of New York</span></strong>
+    </div>
+    <div class="credits">
+      Designed by <a target="_blank" href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
